@@ -1,0 +1,48 @@
+.waiting-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.waiting-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.waiting-room-code {
+  color: #93c5fd;
+  margin: 10px 0 20px;
+}
+
+.waiting-welcome {
+  margin-top: 10px;
+  color: #cbd5e1;
+}
+
+.waiting-status {
+  margin-top: 25px;
+}
+
+.waiting-hint {
+  margin-top: 10px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.waiting-empty {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+}

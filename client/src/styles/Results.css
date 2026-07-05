@@ -1,0 +1,78 @@
+.results-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.results-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.results-winner {
+  color: #93c5fd;
+  margin: 15px 0 25px;
+}
+
+.results-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 20px 0;
+}
+
+.results-empty {
+  color: #cbd5e1;
+  margin: 15px 0;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0 25px;
+}
+
+.result-player {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 14px 18px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.results-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.results-card button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.results-btn-home {
+  background: white;
+  color: #1e3a8a;
+}
+
+.results-btn-dashboard {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

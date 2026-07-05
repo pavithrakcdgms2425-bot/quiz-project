@@ -1,0 +1,31 @@
+.leaderboard-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.leaderboard-page h1 {
+  margin-bottom: 40px;
+}
+
+.leaderboard-container {
+  width: 600px;
+}
+
+.player-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.1rem;
+}

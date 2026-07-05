@@ -1,0 +1,109 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  padding: 60px 20px;
+  color: white;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.dashboard-create-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #1e3a8a;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-status {
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.dashboard-list {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.dashboard-quiz-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.dashboard-quiz-code {
+  color: #93c5fd;
+}
+
+.dashboard-quiz-meta p {
+  margin: 6px 0;
+  color: #e2e8f0;
+}
+
+.dashboard-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 15px 0;
+}
+
+.dashboard-players {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0 5px;
+}
+
+.dashboard-player-row {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.dashboard-actions button {
+  flex: 1;
+  min-width: 140px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.dashboard-btn-manage {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-btn-results {
+  background: #22c55e;
+}
+
+.dashboard-btn-delete {
+  background: #ef4444;
+}

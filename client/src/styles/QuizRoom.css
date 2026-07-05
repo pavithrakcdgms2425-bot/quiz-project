@@ -1,0 +1,141 @@
+.quiz-room,
+.leaderboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.quiz-card,
+.score-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.quiz-card {
+  width: 600px;
+}
+
+.quiz-card h2 {
+  margin: 25px 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.options button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.selected {
+  background: #22c55e;
+  color: white;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.leaderboard {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.score-card {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.leaderboard button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* Live leaderboard panel */
+
+.quiz-room {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.live-leaderboard {
+  width: 280px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 25px;
+  align-self: flex-start;
+}
+
+.live-leaderboard h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.live-leaderboard-empty {
+  color: #cbd5e1;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.live-leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.live-leaderboard-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.9rem;
+}
+
+.live-leaderboard-row.me {
+  background: #22c55e;
+  font-weight: bold;
+}
+
+.live-leaderboard-rank {
+  color: #93c5fd;
+  min-width: 22px;
+}
+
+.live-leaderboard-row.me .live-leaderboard-rank {
+  color: white;
+}
+
+.quiz-waiting-title {
+  margin: 20px 0 10px;
+}
+
+.quiz-waiting-hint {
+  color: #cbd5e1;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
